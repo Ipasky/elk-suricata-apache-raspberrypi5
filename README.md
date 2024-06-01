@@ -5,7 +5,7 @@ This repository is a tutorial for everyone who wants to install an ELK system on
 
 I want to achieve this project because I had the intention to allocate in my home network a web page opened to the internet. Giving public access to your local network is kind of dangerous and exposes your devices, for that reason I built this monitoring setup, trying to minimize my response time in case of a security breach, and although to practice and learn about new technologies.
 
-![](https://github.com/Ipasky/elk-suricata-apache-raspberrypi5/blob/main/img/elastic.svg)
+![](https://github.com/Ipasky/elk-suricata-apache-raspberrypi5/blob/main/img/softwareBanner.png)
 
 ## ELK 
 The ELK system is a popular open-source collection of tools used for data analysis and visualization. It stands for Elasticsearch, Logstash, and Kibana:
