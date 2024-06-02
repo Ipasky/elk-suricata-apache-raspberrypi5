@@ -116,12 +116,14 @@ sudo systemctl status suricata.service
 
 ## Fleet Server
 If we want to add Suricata Integration to our Elastic service first of all we need to configure a Fleet Server integration inside Elastic, you may follow next steps inside Elastic web panel:
+
 **Management -> Integrations -> search: Fleet Server -> Add Fleet Server -> Existing Hosts -> select: Agent policy 1 -> Save and Continue**
 
 ![](https://github.com/Ipasky/elk-suricata-apache-raspberrypi5/blob/main/img/09.jpg)
 
+**Add Elastic Agent to your hosts -> Enroll in Fleet -> name: fleet-server url: https://fleet01:8220 -> Add host -> Generate Token -> Install Fleet Server**
 
-
+![](https://github.com/Ipasky/elk-suricata-apache-raspberrypi5/blob/main/img/10.jpg)
 
 
 
