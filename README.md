@@ -25,7 +25,7 @@ First of all, you proceed to the download pages to get ElasticSearch and Kibana:
 - [ElasticSearch](https://www.elastic.co/downloads/elasticsearch)
 - [Kibana](https://www.elastic.co/downloads/kibana)
 Then you must have to choose the deb aarch64 architecture, the terminal commands are those:
-```bash
+```shell
 wget https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-8.13.4-arm64.deb
 sudo dpkg -i elasticsearch-8.13.4-arm64.deb
 ```
