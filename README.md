@@ -143,7 +143,7 @@ Here at this point you must see at local web browser that the instalation proces
 
 **Continue enrolling Elastic Agent -> Run standalone -> Agent policy name: Agent policy 2 -> Create policy -> Close**
 
-## Elastic Suricata and Apache Integrations
+## Add Elastic Suricata and Apache Integrations
 Ultimately we add Suricata and Apache Integrations to our Elastic service:
 
 **Management -> Integrations -> search: Suricata -> Add Suricata -> Existing hosts: Agent policy 1 -> Save and continue -> Save and deploy Changes**
@@ -159,3 +159,8 @@ If you head towards dashboard at this point you must see default panels from Sur
 **Dashboards -> [Log Apache] Access and error logs**
 
 ![](https://github.com/Ipasky/elk-suricata-apache-raspberrypi5/blob/main/img/12.jpg)
+
+## Custom Dashboard
+Now your free to explore all the diferent panels, data logs, and many functionalities that Elastic bring to you. I configure my own panel to track all the data from both services:
+
+![](https://github.com/Ipasky/elk-suricata-apache-raspberrypi5/blob/main/img/13.jpg)
