@@ -158,6 +158,7 @@ sudo systemctl start elastic-agent
 Here at this point, you must see on the local web browser that the installation process was successful. 
 
 **Continue enrolling Elastic Agent -> Run standalone -> Agent policy name: Agent policy 2 -> Create policy -> Close**
+
 <br></br>
 
 ## Add Elastic Suricata and Apache Integrations
@@ -170,14 +171,13 @@ Ultimately we add Suricata and Apache Integrations to our Elastic service:
 If you head towards the dashboard at this point you must see default panels from Suricata and Apache:
 
 **Dashboards -> [Log Suricata] Event Overview**
-
-![](https://github.com/Ipasky/elk-suricata-apache-raspberrypi5/blob/main/img/11.jpg)
-
 **Dashboards -> [Log Apache] Access and error logs**
 
-![](https://github.com/Ipasky/elk-suricata-apache-raspberrypi5/blob/main/img/12.jpg)
-<br></br>
+| | |
+|:------:|:------:|
+| <img src="https://github.com/Ipasky/elk-suricata-apache-raspberrypi5/blob/main/img/11.jpg" width="500" > | <img src="https://github.com/Ipasky/elk-suricata-apache-raspberrypi5/blob/main/img/12.jpg" width="500" > |
 
+<br></br>
 ## My Dashboard
 Now you're free to explore all the different panels, data logs, and many other functionalities that Elastic brings to you. I'm glad to share my own panel configuration that I use to track all the data from both services. I'm sure that I will change some panels as I discover new functionalities:
 
