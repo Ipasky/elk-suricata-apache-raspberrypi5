@@ -92,7 +92,6 @@ sudo systemctl enable kibana.service
 | <img src="https://github.com/Ipasky/elk-suricata-apache-raspberrypi5/blob/main/img/04.jpg" width="500" > | <img src="https://github.com/Ipasky/elk-suricata-apache-raspberrypi5/blob/main/img/05.jpg" width="500" > |
 
 <br></br>
-
 ## Nginx Installation
 Now we’re going to run an nginx service to redirect all the petitions from your local IP, in my case *192.168.1.152*, to loopback IP *127.0.0.1:5601*. In that loopback address is running kibana, if we want to get access from another machine in the local network that nginx configuration is required.
 
@@ -121,7 +120,6 @@ At this point, if all is running, we can put in your browser your local IP. Just
 | <img src="https://github.com/Ipasky/elk-suricata-apache-raspberrypi5/blob/main/img/07.jpg" width="500" > | <img src="https://github.com/Ipasky/elk-suricata-apache-raspberrypi5/blob/main/img/08.jpg" width="500" > |
 
 <br></br>
-
 ## Suricata Installation
 We proceed to install our Suricata IDS system:
 ```shell
