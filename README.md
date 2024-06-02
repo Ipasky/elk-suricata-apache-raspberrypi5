@@ -1,4 +1,4 @@
-# ELK system to colect logs from Suricata IDS and Apache2 HTTP Server on Raspberry Pi 5
+# ELK system to collect logs from Suricata IDS and Apache2 HTTP Server on a Raspberry Pi 5
 
 ## Introduction
 This repository is a tutorial for everyone who wants to install an ELK system on a Raspberry Pi 5, to collect logs from your local network devices through Suricata IDS and data logs from your Apache2 web service. 
