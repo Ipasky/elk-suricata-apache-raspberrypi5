@@ -174,3 +174,10 @@ If you head towards dashboard at this point you must see default panels from Sur
 Now your free to explore all the diferent panels, data logs, and many other functionalities that Elastic bring to you. I'm glad to share my own panel configuration that I use to track all the data from both services. I'm sure that I will change some panels as I discover new functionalities:
 
 ![](https://github.com/Ipasky/elk-suricata-apache-raspberrypi5/blob/main/img/13.jpg)
+
+## Local Network Structure
+For this project to work, it's necesarry that all the trafic that you want to monitorize arrive at the Raspberry Pi, in my case, I had needed to change the configuration of my Router. You have multiple options to build this: 
+
+- Putting Raspberry Pi as a Proxy server, all the local trafic will go through your device, nevertheless adding other device in the middle of your communications can produce more latency even more if it's a low budget hardware.
+- Setting your router to port mirror mode, this allows to send a copy of all your communications that goes through the other router ports to one specific port, the only inconvenient of this build is that not all the routers has this configuration.
+
