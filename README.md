@@ -104,3 +104,22 @@ At this point, if all is running, we can put in your browser your local IP. Just
 | | |
 |:------:|:------:|
 | <img src="https://github.com/Ipasky/elk-suricata-apache-raspberrypi5/blob/main/img/07.jpg" width="500" > | <img src="https://github.com/Ipasky/elk-suricata-apache-raspberrypi5/blob/main/img/08.jpg" width="500" > |
+
+## Suricata Installation
+We proceed installing our Suricata IDS system:
+```shell
+sudo apt install suricata
+sudo systemctl status suricata.service
+```
+![](https://github.com/Ipasky/elk-suricata-apache-raspberrypi5/blob/main/img/09.jpg)
+
+## Fleet Server
+If we want to add Suricata Integration to our Elastic service first of all we need to configure a Fleet Server integration inside Elastic, you may follow next steps inside Elastic web panel:
+**Management -> Integrations -> search: Fleet Server -> Add Fleet Server -> Existing Hosts -> select: Agent policy 1 -> Save and Continue**
+
+
+
+
+
+
+
