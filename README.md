@@ -72,6 +72,11 @@ Then you need to move at /kibana/bin directory and execute the kibana-setup bina
 ```shell
 cd /usr/share/kibana/bin
 sudo ./kibana-setup
+sudo systemctl start kibana.service
+sudo systemctl enable kibana.service
 ```
+| | |
+|:------:|:------:|
+| <img src="https://github.com/Ipasky/elk-suricata-apache-raspberrypi5/blob/main/img/04.jpg" width="500" > | <img src="https://github.com/Ipasky/elk-suricata-apache-raspberrypi5/blob/main/img/05.jpg" width="500" > |
 
-![](https://github.com/Ipasky/elk-suricata-apache-raspberrypi5/blob/main/img/04.jpg)
+
