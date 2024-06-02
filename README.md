@@ -18,3 +18,6 @@ The ELK system is a popular open-source collection of tools used for data analys
 Suricata is a free, open-source network security tool that acts as both an Intrusion Detection System (IDS) and an Intrusion Prevention System (IPS). It continuously monitors your network traffic for malicious activity by comparing it against a set of rules and signatures.
 -	Intrusion Detection: When Suricata detects suspicious activity, it generates alerts to notify you of potential threats.
 -	Intrusion Prevention: Suricata can also be configured to actively block malicious traffic, preventing attacks from reaching your systems.
+
+## Instalation Guide
+I followed one online video tutorial from Ipsec that explains how to install all the ELK components https://youtu.be/Ts-ofIVRMo4?si=q1j9yGKyTZCcQIbu In my case, how I want to install it in a Raspberry Pi 5 that has the latest OS Debian Bookworm 12, the installation will be a bit different that the video one. First of all, you proceed to the download pages to get ElasticSearch and Kibana:
