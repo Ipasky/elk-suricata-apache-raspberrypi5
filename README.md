@@ -187,6 +187,6 @@ Now you're free to explore all the different panels, data logs, and many other f
 ## Local Network Structure
 For this project to work, it's necessary that all the traffic that you want to monitorize arrive at the Raspberry Pi, in my case, I needed to change the configuration of my Router. You have multiple options to build this: 
 
-- Putting Raspberry Pi as a Proxy server, all the local traffic will go through your device, nevertheless adding another device in the middle of your communications can produce more latency even more if it's a low-budget hardware.
-- Setting your router to port mirror mode, allows you to send a copy of all your communications that go through the other router ports to one specific port, the only inconvenience of this build is that not all the routers have this configuration.
+- Putting Raspberry Pi as a **_Proxy server_**, all the local traffic will go through your device, nevertheless adding another device in the middle of your communications can produce more latency even more if it's a low-budget hardware.
+- Setting your router to **_port mirror mode_**, allows you to send a copy of all your communications that go through the other router ports to one specific port, the only inconvenience of this build is that not all the routers have this configuration.
 <br></br>
