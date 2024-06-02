@@ -20,14 +20,14 @@ Suricata is a free, open-source network security tool that acts as both an Intru
 -	Intrusion Prevention: Suricata can also be configured to actively block malicious traffic, preventing attacks from reaching your systems.
 
 ## Index
-[ElasticSearch Installation](#Elasticsearch-Installation)
-[Kibana Installation](#Kibana-Installation)
-[Nginx Installation](#Nginx-Installation)
-[Elastic Panel](#Elastic-Panel)
-[Suricata Installation](#Suricata-Installation)
-[Fleet Server](#Fleet-Server)
-[Add Elastic Suricata and Apache Integrations](#Add-Elastic-Suricata-and-Apache-Integrations)
-[My Dashboard](#My-Dashboard)
+- [ElasticSearch Installation](#Elasticsearch-Installation)
+- [Kibana Installation](#Kibana-Installation)
+- [Nginx Installation](#Nginx-Installation)
+- [Elastic Panel](#Elastic-Panel)
+- [Suricata Installation](#Suricata-Installation)
+- [Fleet Server](#Fleet-Server)
+- [Add Elastic Suricata and Apache Integrations](#Add-Elastic-Suricata-and-Apache-Integrations)
+- [My Dashboard](#My-Dashboard)
 
 # Instalation Guide
 I followed one online video tutorial from [**IppSec**](https://youtu.be/Ts-ofIVRMo4?si=q1j9yGKyTZCcQIbu) that explains how to install all the ELK components. In my case, how I want to install it in a **Raspberry Pi 5** that has the latest **OS Debian Bookworm 12**, the installation will be a bit different that the video one. 
