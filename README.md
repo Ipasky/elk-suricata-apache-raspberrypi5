@@ -26,10 +26,11 @@ First of all, you proceed to the download page to get ElasticSearch and Kibana, 
 - [Kibana](https://www.elastic.co/downloads/kibana)
 
 We start installing elasticsearch, the terminal commands are those:
-```shell Bash Commands
+```shell
 wget https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-8.13.4-arm64.deb
 sudo dpkg -i elasticsearch-8.13.4-arm64.deb
 ```
+
 
 On the installation process of ElasticSearch you will receive from command text the password generated automatically, in my case was: **_Hpytz9NXn0w1PoJKxLlh_**
 
@@ -37,3 +38,17 @@ On the installation process of ElasticSearch you will receive from command text 
 > One clarification, all the passwords and tokens that I share publicly here in this repo aren’t sensitive information for me, this is a test environment where I reinstalled ELK just to document and explain all the processes.
 
 ![](https://github.com/Ipasky/elk-suricata-apache-raspberrypi5/blob/main/img/01.jpg)
+
+
+Next, you have to start the systemctl daemon process of elasticsearch and check if it’s working properly:
+
+```shell
+sudo systemctl start elasticsearch.service
+sudo systemctl enable elasticsearch.service
+sudo systemctl status elasticsearch.service
+```
+
+![](https://github.com/Ipasky/elk-suricata-apache-raspberrypi5/blob/main/img/02.jpg)
+
+
+
