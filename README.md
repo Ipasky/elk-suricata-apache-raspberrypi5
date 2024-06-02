@@ -170,10 +170,7 @@ Ultimately we add Suricata and Apache Integrations to our Elastic service:
 
 If you head towards the dashboard at this point you must see default panels from Suricata and Apache:
 
-**Dashboards -> [Log Suricata] Event Overview**
-**Dashboards -> [Log Apache] Access and error logs**
-
-| | |
+| **Dashboards -> [Log Suricata] Event Overview** | **Dashboards -> [Log Apache] Access and error logs** |
 |:------:|:------:|
 | <img src="https://github.com/Ipasky/elk-suricata-apache-raspberrypi5/blob/main/img/11.jpg" width="500" > | <img src="https://github.com/Ipasky/elk-suricata-apache-raspberrypi5/blob/main/img/12.jpg" width="500" > |
 
