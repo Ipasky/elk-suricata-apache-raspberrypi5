@@ -20,7 +20,12 @@ Suricata is a free, open-source network security tool that acts as both an Intru
 -	Intrusion Prevention: Suricata can also be configured to actively block malicious traffic, preventing attacks from reaching your systems.
 
 ## Instalation Guide
-I followed one online video tutorial from IppSec that explains how to install all the ELK components https://youtu.be/Ts-ofIVRMo4?si=q1j9yGKyTZCcQIbu. In my case, how I want to install it in a Raspberry Pi 5 that has the latest OS Debian Bookworm 12, the installation will be a bit different that the video one. 
+I followed one online video tutorial from [IppSec](https://youtu.be/Ts-ofIVRMo4?si=q1j9yGKyTZCcQIbu) that explains how to install all the ELK components. In my case, how I want to install it in a Raspberry Pi 5 that has the latest OS Debian Bookworm 12, the installation will be a bit different that the video one. 
 First of all, you proceed to the download pages to get ElasticSearch and Kibana: 
 - [ElasticSearch](https://www.elastic.co/downloads/elasticsearch)
 - [Kibana](https://www.elastic.co/downloads/kibana)
+Then you must have to choose the deb aarch64 architecture, the terminal commands are those:
+```bash
+wget https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-8.13.4-arm64.deb
+sudo dpkg -i elasticsearch-8.13.4-arm64.deb
+```
