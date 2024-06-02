@@ -25,6 +25,7 @@ First of all, you proceed to the download page to get ElasticSearch and Kibana, 
 - [ElasticSearch](https://www.elastic.co/downloads/elasticsearch)
 - [Kibana](https://www.elastic.co/downloads/kibana)
 
+### ElasticSearch Installation
 We start installing elasticsearch, the terminal commands are those:
 ```shell
 wget https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-8.13.4-arm64.deb
@@ -49,6 +50,7 @@ sudo systemctl status elasticsearch.service
 
 ![](https://github.com/Ipasky/elk-suricata-apache-raspberrypi5/blob/main/img/02.jpg)
 
+### Kibana Installation
 Let’s go install Kibana now, as same as previously you have to download the **_deb aarch64_** file and install it with dpkg:
 
 ```shell
@@ -63,4 +65,5 @@ cd /usr/share/elasticsearch/bin
 sudo ./elasticsearch-create-enrollment-token -s kibana
 ```
 
+![](https://github.com/Ipasky/elk-suricata-apache-raspberrypi5/blob/main/img/03.jpg)
 
