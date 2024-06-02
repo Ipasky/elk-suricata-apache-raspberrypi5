@@ -26,7 +26,7 @@ First of all, you proceed to the download page to get ElasticSearch and Kibana, 
 - [Kibana](https://www.elastic.co/downloads/kibana)
 
 We start installing elasticsearch, the terminal commands are those:
-```shell
+```shell Bash Commands
 wget https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-8.13.4-arm64.deb
 sudo dpkg -i elasticsearch-8.13.4-arm64.deb
 ```
