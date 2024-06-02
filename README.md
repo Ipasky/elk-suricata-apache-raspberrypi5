@@ -31,6 +31,6 @@ wget https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-8.13.4-a
 sudo dpkg -i elasticsearch-8.13.4-arm64.deb
 ```
 
-On the installation process of ElasticSearch you will receive from command text the password generated automatically, in my case was *Hpytz9NXn0w1PoJKxLlh* 
+On the installation process of ElasticSearch you will receive from command text the password generated automatically, in my case was > *Hpytz9NXn0w1PoJKxLlh* 
 One clarification, all the passwords and tokens that I share publicly here in this repo aren’t sensitive information for me, this is a test environment that I reinstalled ELK just to document and explain all the processes.
 [](https://github.com/Ipasky/elk-suricata-apache-raspberrypi5/blob/main/img/01.jpg)
