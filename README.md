@@ -125,6 +125,22 @@ If we want to add Suricata Integration to our Elastic service first of all we ne
 
 ![](https://github.com/Ipasky/elk-suricata-apache-raspberrypi5/blob/main/img/10.jpg)
 
+Then we're going to install Elastic Agent, just by following steps that apears in local web browser (remember that we're using deb aarch64, in the commands that apears in browser is not contemplated that version, you may need to download from Elastic public web page, as same as ElasticSearch or Kibana installation):
 
+```shell
+wget https://artifacts.elastic.co/downloads/beats/elastic-agent/elastic-agent-8.13.4-arm64.deb
+sudo dpkg -i elastic-agent-8.13.4-arm64.deb
+sudo elastic-agent enroll \
+  --fleet-server-es=https://192.168.1.152:9200 \
+  --fleet-server-service-token=AAEAAWVsYXN0aWMvZmxlZXQtc2VydmVyL3Rva2VuLTE3MTcyMzQ3NjEzNzk6N0hTOGxyLTJSS3laYkNVX1hHenNPQQ \
+  --fleet-server-policy=c08e4e58-b77a-4c77-a501-c59321765158 \
+  --fleet-server-es-ca-trusted-fingerprint=a62a6f0698aaabc7f471a961c347a25928c075789771b0b8838df025b3d469e1 \
+  --fleet-server-port=8220
+sudo systemctl enable elastic-agent
+sudo systemctl start elastic-agent
+```
+Here at this point you must see at local web browser that the instalation process was succefull.  
+
+**Continue enrolling Elastic Agent -> Run standalone -> Agent policy name: Agent policy 2 -> Create policy -> Close**
 
 
