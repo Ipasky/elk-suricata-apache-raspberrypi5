@@ -18,6 +18,14 @@ The ELK system is a popular open-source collection of tools used for data analys
 Suricata is a free, open-source network security tool that acts as both an Intrusion Detection System (IDS) and an Intrusion Prevention System (IPS). It continuously monitors your network traffic for malicious activity by comparing it against a set of rules and signatures.
 -	Intrusion Detection: When Suricata detects suspicious activity, it generates alerts to notify you of potential threats.
 -	Intrusion Prevention: Suricata can also be configured to actively block malicious traffic, preventing attacks from reaching your systems.
+<br></br>
+
+# Instalation Guide
+I followed one online video tutorial from [**IppSec**](https://youtu.be/Ts-ofIVRMo4?si=q1j9yGKyTZCcQIbu) that explains how to install all the ELK components. In my case, how I want to install it in a **Raspberry Pi 5** that has the latest **OS Debian Bookworm 12**, the installation will be a bit different that the video one. 
+First of all, you proceed to the download page to get ElasticSearch and Kibana, you must have to choose the *deb aarch64* architecture: 
+- [ElasticSearch](https://www.elastic.co/downloads/elasticsearch)
+- [Kibana](https://www.elastic.co/downloads/kibana)
+<br></br>
 
 ## Index
 - [ElasticSearch Installation](#Elasticsearch-Installation)
@@ -29,12 +37,6 @@ Suricata is a free, open-source network security tool that acts as both an Intru
 - [Add Elastic Suricata and Apache Integrations](#Add-Elastic-Suricata-and-Apache-Integrations)
 - [My Dashboard](#My-Dashboard)
 - [Local Network Structure](#Local-Network-Structure)
-
-# Instalation Guide
-I followed one online video tutorial from [**IppSec**](https://youtu.be/Ts-ofIVRMo4?si=q1j9yGKyTZCcQIbu) that explains how to install all the ELK components. In my case, how I want to install it in a **Raspberry Pi 5** that has the latest **OS Debian Bookworm 12**, the installation will be a bit different that the video one. 
-First of all, you proceed to the download page to get ElasticSearch and Kibana, you must have to choose the *deb aarch64* architecture: 
-- [ElasticSearch](https://www.elastic.co/downloads/elasticsearch)
-- [Kibana](https://www.elastic.co/downloads/kibana)
 <br></br>
 
 ## ElasticSearch Installation
