@@ -80,7 +80,7 @@ sudo systemctl enable kibana.service
 | <img src="https://github.com/Ipasky/elk-suricata-apache-raspberrypi5/blob/main/img/04.jpg" width="500" > | <img src="https://github.com/Ipasky/elk-suricata-apache-raspberrypi5/blob/main/img/05.jpg" width="500" > |
 
 ## Nginx Installation
-Now we’re going to run an nginx service to redirect all the petitions to your local IP, in my case is 192.168.1.152, to loopback IP 127.0.0.1:5601, here is kibana running but if we want to get access from another machine in local network that is required.
+Now we’re going to run an nginx service to redirect all the petitions from your local IP, in my case is 192.168.1.152, to loopback IP 127.0.0.1:5601, here is kibana running but if we want to get access from another machine in local network that is required.
 
 Before installing nginx you may need to change nginx default port listen or apache2 because by default both are listening in port 80. In my case I change the apache2 listen port to 8080:
 
