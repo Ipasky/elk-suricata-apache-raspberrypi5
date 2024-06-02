@@ -186,4 +186,4 @@ For this project to work, it's necessary that all the traffic that you want to m
 
 - Putting Raspberry Pi as a Proxy server, all the local traffic will go through your device, nevertheless adding another device in the middle of your communications can produce more latency even more if it's a low-budget hardware.
 - Setting your router to port mirror mode, allows you to send a copy of all your communications that go through the other router ports to one specific port, the only inconvenience of this build is that not all the routers have this configuration.
-
+<br></br>
