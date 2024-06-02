@@ -21,12 +21,16 @@ Suricata is a free, open-source network security tool that acts as both an Intru
 
 ## Instalation Guide
 I followed one online video tutorial from [IppSec](https://youtu.be/Ts-ofIVRMo4?si=q1j9yGKyTZCcQIbu) that explains how to install all the ELK components. In my case, how I want to install it in a Raspberry Pi 5 that has the latest OS Debian Bookworm 12, the installation will be a bit different that the video one. 
-First of all, you proceed to the download pages to get ElasticSearch and Kibana, you must have to choose the *deb aarch64* architecture: 
+First of all, you proceed to the download page to get ElasticSearch and Kibana, you must have to choose the *deb aarch64* architecture: 
 - [ElasticSearch](https://www.elastic.co/downloads/elasticsearch)
 - [Kibana](https://www.elastic.co/downloads/kibana)
 
-Then, the terminal commands are those:
+We start installing elasticsearch, the terminal commands are those:
 ```shell
 wget https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-8.13.4-arm64.deb
 sudo dpkg -i elasticsearch-8.13.4-arm64.deb
 ```
+
+On the installation process of ElasticSearch you will receive from command text the password generated automatically, in my case was “Hpytz9NXn0w1PoJKxLlh” 
+One clarification, all the passwords and tokens that I share publicly here in this repo aren’t sensitive information for me, this is a test environment that I reinstalled ELK just to document and explain all the processes.
+[](https://github.com/Ipasky/elk-suricata-apache-raspberrypi5/blob/main/img/01.png)
