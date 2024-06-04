@@ -98,7 +98,7 @@ sudo systemctl enable kibana.service
 ## Nginx Installation
 Now we’re going to run an nginx service to redirect all the petitions from your local IP, in my case *192.168.1.152*, to loopback IP *127.0.0.1:5601*. In that loopback address is running kibana, if we want to get access from another machine in the local network that nginx configuration is required.
 
-Before installing nginx you may need to change the nginx default port listen or apache2 because by default both are listening in port 80. In my case I change the apache2 listen port to 8080:
+Before installing nginx you may need to change the nginx default port listen or apache2 because, by default, both are listening in port 80. In my case I change the apache2 listen port to 8080:
 
 ```shell
 sudo nano /etc/apache2/ports.conf
